@@ -87,11 +87,38 @@
     background: var(--or);
     bottom: -42px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%
+    );
     border-radius: 15px 15px 0 0;
     transition: 0.3s
 }
 
 .navbar__list-item-link:hover::after{
     width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar{
+        padding-top: 20px;
+    }
+    
+    .navbar__wrap{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .navbar__list-item{
+        padding: 20px 0;
+    }
+    
+    .navbar__list-item{
+        bottom: -20ex;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .navbar__list{
+        gap: 15px;
+    }
+    
 }
