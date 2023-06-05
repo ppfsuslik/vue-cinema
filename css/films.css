@@ -1,0 +1,34 @@
+.films {
+    position: relative;
+}
+
+.films__wrap {}
+
+.films__card {
+    position: relative;
+    background: linear-gradient(180deg, rgba(241, 129, 40, 0.35) 0%, rgba(0, 0, 0, 0.71) 51.04%, rgba(7, 15, 25, 0.8) 100%);
+    max-width: 255px;
+    height: 366px;
+    width: 100%;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.films__card-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.film__card-body {
+    height: 100%;
+    padding: 54px 15px 18px;
+    text-align: center;
+}
+
+.film__card-body-icon{
+    
+}
